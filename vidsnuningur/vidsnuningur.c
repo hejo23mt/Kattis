@@ -2,6 +2,11 @@
 #include "string.h"
 
 int main(){
-    printf("test");
+    char input[100];
+    scanf("%s", input);
+    int length = strlen(input);
+    for (int i=length-1; i>=0; i--){
+        printf("%c",input[i]);
+    }
     return 0;
 }
