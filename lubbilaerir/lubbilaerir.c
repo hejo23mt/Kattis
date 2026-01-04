@@ -1,0 +1,10 @@
+#include "stdio.h"
+#include "string.h"
+
+int main(){
+    char word[20];
+
+    scanf("%s", word);
+    printf("%c", word[0]);
+    return 0;
+}
