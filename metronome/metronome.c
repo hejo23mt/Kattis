@@ -1,6 +1,8 @@
 #include "stdio.h"
 
 int main(){
-    printf("Hello world!\n");
+    float input = 0.0;
+    scanf("%f", &input);
+    printf("%.2f", (input/4));
     return 0;
 }
