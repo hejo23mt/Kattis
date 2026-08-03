@@ -1,0 +1,14 @@
+#include "stdio.h"
+#include "string.h"
+
+int main(){
+	int num = 0;
+	scanf("%d", &num);
+	if (num%2 == 0){
+		printf("Bob");
+	} else{
+		printf("Alice");
+	
+	}
+	return 0;
+}
